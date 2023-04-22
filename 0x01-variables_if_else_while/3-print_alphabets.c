@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - A program that will assign a random number to a variable
  *
  * Return: Always 0 (success)
  */
@@ -12,7 +12,7 @@ int main(void)
 	int upperCase = 'A';
 
 	while
-		(lowerCase <= 'z');
+		(lowerCase <= 'z')
 	{
 	putchar(lowerCase);
 	lowerCase += 1;
