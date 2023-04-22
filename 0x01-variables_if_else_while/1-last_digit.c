@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
 * main - To generate a random number
 *
@@ -13,8 +14,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("last digit of %d is ", n);
+
 	lastnum = n % 10;
+
+	printf("lastnum of %d is %d ", n, lastnum);
+
 	if (lastnum > 5)
 	{
 	printf("%d and is greater than 5\n", lastnum);
